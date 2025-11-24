@@ -1,94 +1,69 @@
-Cover Page
+1.Cover Page-
 Project Title: Digit Sequence Index Finder
 
-Author: [Your Name]
+Author: Vaishnavi Yadav
 
 Date: November 24, 2025
 
-2. Introduction
+2. Introduction-
 This project implements a Python solution to determine and print the sequence of digits at a specific index in a mathematical digit series, based on user input. The program demonstrates concepts of indexing, mathematical calculations, and sequence handling in Python.​
 
 3. Problem Statement
 The primary objective is to create a program that, for a given index input, efficiently calculates and outputs the corresponding sequence of digits in a concatenated numerical series.​
 
 4. Functional Requirements
-Take integer input indicating the target index.
-
-Generate and process sequences of digits to reach the desired index.
-
-Output the digits at and around the target index for analysis.​
+   Take integer input indicating the target index.
+   Generate and process sequences of digits to reach the desired index.
+   Output the digits at and around the target index for analysis.​
 
 5. Non-functional Requirements
-Program must run in Python 3 or later.
-
-Execution should complete within seconds for typical indices (e.g., n < 10,000).
-
-Basic error handling for invalid input formats.
+   Program must run in Python 3 or later.
+   Basic error handling for invalid input formats.
 
 6. System Architecture
 The program uses a single Python script, working primarily within the command-line interface. All calculations and logic are self-contained, meaning no external dependencies or databases are required.​
 
 7. Design Diagrams
-Use Case Diagram
-Actor: User
+      Use Case Diagram
+      Actor: User
+      Use Case: Input index, Receive digit sequence output.
 
-Use Case: Input index, Receive digit sequence output.
+   Workflow Diagram
+      Start → Input Index → Process Series → Output Results → End
 
-Workflow Diagram
-Start → Input Index → Process Series → Output Results → End
+   Sequence Diagram
+      User enters index → Program processes the index → Outputs digit sequence.
 
-Sequence Diagram
-User enters index → Program processes the index → Outputs digit sequence.
+   Class/Component Diagram
+      One main functional block handling input, storage, and output.
 
-Class/Component Diagram
-One main functional block handling input, storage, and output.
-
-ER Diagram
-Not applicable; no persistent data or database storage used.
+   ER Diagram
+      Not applicable; no persistent data or database storage used.
 
 8. Design Decisions & Rationale
 The solution uses loops and indexing to compute the required digit sequence, balancing simplicity and efficiency without external libraries. Logic branches handle varying index ranges for optimized calculation and output.​
 
 9. Implementation Details
 Input is received via input() for index specification.
-
 List structures are used to store and process sequences.
-
 Conditional statements handle multiple calculation cases based on index ranges.
-
 Final output printed directly for user inspection.​
-
-10. Screenshots / Results
-Sample output (text format):
-
-text
-Enter the index till which digits should be printed: 15
-[Output sequence shown here]
-(Screenshots should be captured by running the program.)
 
 11. Testing Approach
 Manual testing by inputting different index values and verifying the correctness of the output sequences for each scenario.​
 
 12. Challenges Faced
-Handling large indices efficiently.
-
 Designing logic for various index ranges to avoid calculation errors.
 
 13. Learnings & Key Takeaways
 Importance of control structures for sequence logic.
-
 How to implement digit manipulation algorithms within procedural programming.
 
 14. Future Enhancements
 Add graphical user interface.
-
-Optimize algorithm for extremely large indices.
-
+Optimize algorithm for extremely large indices(increasing range and finding patterns).
 Implement additional sequence types (e.g., prime number concatenation).
 
 15. References
 Python Language Documentation
-
 Mathematics of digit sequences in programming
-
-[The attached "vityarthi_project.py" file]​
