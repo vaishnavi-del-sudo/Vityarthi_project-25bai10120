@@ -36,6 +36,4 @@ Sample Output-
     output=
     5
     55
-    5
-55
-#this program works on the concept of lists and indexing, with alongside us
+    
